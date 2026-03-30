@@ -496,9 +496,14 @@ img {
     padding-top: 18px;
   }
 
-  .hero h1,
+  .hero h1 {
+    font-size: clamp(1.95rem, 7.8vw, 2.9rem);
+    line-height: 0.98;
+  }
+
   .section h2 {
-    font-size: clamp(2.2rem, 10vw, 3.8rem);
+    font-size: clamp(1.75rem, 6.8vw, 2.45rem);
+    line-height: 1.02;
   }
 
   .hero p,
@@ -513,6 +518,10 @@ img {
 
   .visual-stack {
     min-height: 760px;
+  }
+
+  .eyebrow {
+    font-size: 0.76rem;
   }
 
   .shot-main {
