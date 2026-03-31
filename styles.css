@@ -145,6 +145,11 @@ img {
   letter-spacing: -0.06em;
 }
 
+.hero-title span,
+.page-title span {
+  display: block;
+}
+
 .section h2 {
   font-size: clamp(2rem, 4vw, 3.7rem);
 }
@@ -496,9 +501,8 @@ img {
     padding-top: 18px;
   }
 
-  .hero h1,
-  .support-hero h1,
-  .policy-hero h1 {
+  .hero-title,
+  .page-title {
     font-size: clamp(1.95rem, 7.8vw, 2.9rem);
     line-height: 0.98;
   }
@@ -542,9 +546,8 @@ img {
 }
 
 @media (max-width: 430px) {
-  .hero h1,
-  .support-hero h1,
-  .policy-hero h1 {
+  .hero-title,
+  .page-title {
     font-size: 1.42rem;
     line-height: 1.04;
     letter-spacing: -0.045em;
@@ -564,9 +567,8 @@ img {
 }
 
 @media (max-width: 390px) {
-  .hero h1,
-  .support-hero h1,
-  .policy-hero h1 {
+  .hero-title,
+  .page-title {
     font-size: 1.28rem;
     line-height: 1.06;
     max-width: 10.5ch;
