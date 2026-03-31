@@ -538,3 +538,22 @@ img {
     flex-direction: column;
   }
 }
+
+@media (max-width: 430px) {
+  .hero h1 {
+    font-size: clamp(1.55rem, 6.3vw, 2.1rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .hero p,
+  .hero-note {
+    font-size: 0.92rem;
+  }
+
+  .button,
+  .button-secondary {
+    min-height: 48px;
+    padding: 0 18px;
+  }
+}
