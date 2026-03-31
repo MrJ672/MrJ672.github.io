@@ -496,7 +496,9 @@ img {
     padding-top: 18px;
   }
 
-  .hero h1 {
+  .hero h1,
+  .support-hero h1,
+  .policy-hero h1 {
     font-size: clamp(1.95rem, 7.8vw, 2.9rem);
     line-height: 0.98;
   }
@@ -540,10 +542,13 @@ img {
 }
 
 @media (max-width: 430px) {
-  .hero h1 {
-    font-size: clamp(1.55rem, 6.3vw, 2.1rem);
-    line-height: 1;
-    letter-spacing: -0.05em;
+  .hero h1,
+  .support-hero h1,
+  .policy-hero h1 {
+    font-size: 1.42rem;
+    line-height: 1.04;
+    letter-spacing: -0.045em;
+    max-width: 11ch;
   }
 
   .hero p,
@@ -555,5 +560,20 @@ img {
   .button-secondary {
     min-height: 48px;
     padding: 0 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero h1,
+  .support-hero h1,
+  .policy-hero h1 {
+    font-size: 1.28rem;
+    line-height: 1.06;
+    max-width: 10.5ch;
+  }
+
+  .hero p,
+  .hero-note {
+    font-size: 0.88rem;
   }
 }
